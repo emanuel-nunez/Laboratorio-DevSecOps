@@ -10,5 +10,5 @@ on:
        steps: 
 
          -name:  Hola mundo
-          run: |
+          run:  |
            echo 'Hola mundo'

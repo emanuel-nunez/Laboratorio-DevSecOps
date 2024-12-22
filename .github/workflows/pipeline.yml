@@ -1,0 +1,14 @@
+name: Workflow
+on:
+  push: 
+    branches: 
+      -main
+jobs:
+  BUILD:
+    runs-on: ubuntu latest 
+    steps:
+
+      - name: Aqui compilamos
+        run: |
+          echo 'Aqui compilamos'
+          

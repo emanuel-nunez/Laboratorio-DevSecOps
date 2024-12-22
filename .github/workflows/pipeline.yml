@@ -19,3 +19,11 @@ jobs:
       - name: se realizan pruebas
         run: |
           echo 'se realizan pruebas'
+
+  DEPLOY:
+    runs-on: ubuntu-latest 
+    steps:
+
+      - name: se realiza deploy
+        run: |
+          echo 'se realiza deploy'

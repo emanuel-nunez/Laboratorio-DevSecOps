@@ -11,4 +11,11 @@ jobs:
       - name: Aqui compilamos
         run: |
           echo 'Aqui compilamos'
-          
+
+  TESTING:
+    runs-on: ubuntu-latest 
+    steps:
+
+      - name: se realizan pruebas
+        run: |
+          echo 'se realizan pruebas'

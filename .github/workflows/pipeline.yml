@@ -25,9 +25,10 @@ jobs:
         env:
           SONAR_TOKEN: $¨{{ secrets.SONAR_TOKEN }}
         run: |
-          if [ -f "Dockerfile" ]; then 
-            echo "Encontro el archivo Docker"
+          if [ -f "build.gradle" ]; then 
+            echo "Encontro el archivo"
           else
-            echo "no se encontro archivo Docker"
+            echo "no se encontro archivo build.gradle"
             exit 1
           fi
+          
